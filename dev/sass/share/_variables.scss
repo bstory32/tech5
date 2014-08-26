@@ -1,0 +1,29 @@
+// http://flatuicolors.com/
+
+$white : #FFF;
+$blue : #2980b9;
+$red : red;
+
+$backgroundBlue : #1f2022;
+$midblue: #337a98;
+$lightblue: #4090b1;
+$primaryBlue: #246784;
+$orange: #fd742b;
+
+$grey : #ecf0f1;
+$yellow : #F3C230;
+$darkgrey: #797A7A;
+
+$green: #5cb85c;
+
+
+// buttons
+.btn-primary{
+	background-color: $orange;
+	border: 0;
+	&:hover{
+	background-color: #fc6220;
+	}
+
+
+}
