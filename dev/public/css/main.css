@@ -1,11 +1,12 @@
-/* line 21, ../../sass/share/_variables.scss */
+/* line 11, ../../sass/share/_variables.scss */
 .btn-primary {
-  background-color: #fd742b;
+  background-color: #ABABAC;
+  padding: 15px 20px;
   border: 0;
 }
-/* line 24, ../../sass/share/_variables.scss */
+/* line 15, ../../sass/share/_variables.scss */
 .btn-primary:hover {
-  background-color: #fc6220;
+  background-color: #0076A7;
 }
 
 /* line 1, ../../sass/share/_body.scss */
@@ -17,25 +18,32 @@ body {
 /* line 6, ../../sass/share/_body.scss */
 h1, h2, h3, h4, h5 {
   text-transform: uppercase;
+  font-family: 'Rufina', serif;
 }
 
-/* line 10, ../../sass/share/_body.scss */
+/* line 11, ../../sass/share/_body.scss */
 h1 {
   font-size: 5em;
 }
 
 /* line 15, ../../sass/share/_body.scss */
+h2 {
+  font-size: 4em;
+}
+
+/* line 19, ../../sass/share/_body.scss */
 p {
   font-family: 'PT Sans', sans-serif;
 }
 
-/* line 19, ../../sass/share/_body.scss */
+/* line 23, ../../sass/share/_body.scss */
 span {
   font-family: 'PT Sans', sans-serif;
 }
 
-/* line 23, ../../sass/share/_body.scss */
+/* line 27, ../../sass/share/_body.scss */
 hr {
+  width: 50%;
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
@@ -61,13 +69,13 @@ nav ul {
 /* line 14, ../../sass/share/_nav.scss */
 nav ul li {
   display: inline-block;
-  padding: 0 25px;
+  padding: 0 40px;
 }
 /* line 17, ../../sass/share/_nav.scss */
 nav ul li a {
   font-family: 'Roboto Slab', serif;
   font-weight: 100;
-  font-size: 2em;
+  font-size: 1.5em;
   color: #fff;
 }
 /* line 22, ../../sass/share/_nav.scss */
@@ -105,24 +113,27 @@ nav ul li a img {
 
 /* line 1, ../../sass/home-page/_main-message.scss */
 .main-message {
-  padding: 17em 0;
+  padding: 15em 0;
 }
 /* line 4, ../../sass/home-page/_main-message.scss */
 .main-message .message-details {
-  float: left;
+  text-align: left;
 }
-/* line 9, ../../sass/home-page/_main-message.scss */
+/* line 10, ../../sass/home-page/_main-message.scss */
+.main-message .message-details img {
+  height: auto;
+  width: 300px;
+}
+/* line 13, ../../sass/home-page/_main-message.scss */
 .main-message .message-details p {
   font-size: 1.7em;
 }
-/* line 12, ../../sass/home-page/_main-message.scss */
+/* line 16, ../../sass/home-page/_main-message.scss */
 .main-message .message-details hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: 0;
-  border-top: 1px solid #000;
+  width: 60%;
+  margin-left: 0;
 }
-/* line 18, ../../sass/home-page/_main-message.scss */
+/* line 20, ../../sass/home-page/_main-message.scss */
 .main-message .message-details span {
   background: #000;
   padding: 5px;
@@ -130,30 +141,52 @@ nav ul li a img {
   color: #eee;
 }
 
-/* line 1, ../../sass/home-page/_content-message.scss */
-.content-message {
-  padding: 5px 0;
-  background: #817a7a;
+/* line 1, ../../sass/home-page/_portfolio-section.scss */
+.portfolio-section {
+  padding: 15em 0;
+  text-align: center;
+  background: #fff;
 }
-/* line 4, ../../sass/home-page/_content-message.scss */
-.content-message h2 {
-  color: #eee;
+/* line 6, ../../sass/home-page/_portfolio-section.scss */
+.portfolio-section .projects {
+  padding: 25px 0;
 }
-/* line 10, ../../sass/home-page/_content-message.scss */
-.content-message .content-message-details p {
-  color: #000;
+/* line 8, ../../sass/home-page/_portfolio-section.scss */
+.portfolio-section .projects h3 {
+  font-size: 1.3em;
+}
+/* line 11, ../../sass/home-page/_portfolio-section.scss */
+.portfolio-section .projects img {
+  max-width: 100%;
+  width: 280px;
+  border: 1px solid #eee;
 }
 
-/* line 1, ../../sass/home-page/_content-details.scss */
-.content-details {
-  margin-top: 2em;
-}
-/* line 3, ../../sass/home-page/_content-details.scss */
-.content-details p {
-  font-size: 1.5em;
-}
-/* line 10, ../../sass/home-page/_content-details.scss */
-.content-details .projects-section {
+/* line 1, ../../sass/home-page/_team-section.scss */
+.team-section {
+  padding: 15em 0;
   text-align: center;
-  margin-bottom: 15em 0;
+}
+/* line 6, ../../sass/home-page/_team-section.scss */
+.team-section .team-members img {
+  padding: 25px 0;
+}
+
+/* line 1, ../../sass/home-page/_contact-section.scss */
+.contact-section {
+  background: #fff;
+  padding: 15em 0;
+  text-align: center;
+}
+/* line 7, ../../sass/home-page/_contact-section.scss */
+.contact-section .contact-details h3 {
+  padding: 10px 0;
+}
+/* line 10, ../../sass/home-page/_contact-section.scss */
+.contact-section .contact-details i {
+  border-radius: 50%;
+  margin-bottom: 15px;
+  padding: 60px;
+  font-size: 6em;
+  background: #eee;
 }

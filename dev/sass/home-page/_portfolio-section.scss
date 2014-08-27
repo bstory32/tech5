@@ -1,0 +1,18 @@
+.portfolio-section{
+	padding: 15em 0;
+	text-align: center;
+	background: #fff;
+
+	.projects{
+		padding: 25px 0;
+		h3{
+			font-size: 1.3em;
+		}
+		img{
+			
+			max-width: 100%;
+			width: 280px;
+			border: 1px solid #eee;
+		}
+	}
+}
