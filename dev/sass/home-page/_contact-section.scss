@@ -1,9 +1,27 @@
 .contact-section{
-	background: #fff;
-	padding: 15em 0;
+	background: url(../images/classy_fabric.png);
+	padding: $desktop-margin;
 	text-align: center;
 
+	@media screen and (max-width: 767px){
+		padding: $mobile-margin;
+	}
+
+	.contact-message{
+		color: #eee;
+	}
+
 	.contact-details{
+		padding: 25px 15px;
+
+		.btn-primary{
+			float: left;
+		}
+
+		form{
+			max-width: 400px;
+			margin: 0 auto;
+		}
 		h3{
 			padding: 10px 0; 
 		}
@@ -13,6 +31,14 @@
 			padding: 60px;
 			font-size: 6em;
 			background: #eee;
+		}
+
+		label{
+			float: left;
+			color: #eee;
+		}
+		select{
+			margin-bottom: 15px;
 		}
 	}
 }

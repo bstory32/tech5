@@ -1,27 +1,61 @@
 .main-message{
-	padding: 15em 0;
+	padding: $desktop-margin;
 	
 	.message-details{
-		text-align: left;
-		h1{
-
-		}
-
 		img{
-			height: auto;
-			width: 300px;		}
-			p{
-				font-size: 1.7em;
+			width: 300px;		
+		}
+		p{
+			font-size: 1.7em;
+		}
+		hr {
+			width: 60%;	
+			margin-left: 0;
+		}
+		span{
+			background: #000;
+			padding: 3px;
+			border-radius: 4px;
+			font-size: .8em;
+			color: #eee;
+			margin: 10px;
+		}
+	}
+}
+
+@media screen and (max-width: 767px){
+
+	.main-message{
+		padding: 9em 0;
+
+		
+		.message-details{
+			text-align: center;
+			hr{
+				display: none;
 			}
-			hr {
-				width: 60%;
-				margin-left: 0;
+
+
+			img{
+				width: 250px;
+				display: none;
 			}
+
 			span{
-				background: #000;
-				padding: 5px;
-				border-radius: 8px;
-				color: #eee;
+				display: none;
 			}
 		}
 	}
+
+	
+
+}
+
+@media screen and (max-width: 500px){
+	h1{
+		margin-bottom: 10px;
+	}
+}
+
+
+

@@ -1,10 +1,27 @@
 .team-section{
-	padding: 15em 0;
+	background: #fff;
+	padding: $desktop-margin;
 	text-align: center;
 
+	@media screen and (max-width: 767px){
+		padding: $mobile-margin;
+	}
+
 	.team-members{
+
+		@media screen and (max-width: 500px){
+
+			img{
+				border: none;
+				margin: 0 auto;
+			}
+		}
 		img{
-			padding: 25px 0;
+			margin-bottom: 25px;
+			max-width: 100%;
+			border: 12px solid #eee;
+
+
 		}
 	}
 }

@@ -1,0 +1,55 @@
+.services-section{
+	padding: $desktop-margin;
+
+	@media screen and (max-width: 767px){
+		padding: $mobile-margin;
+	}
+
+	hr{
+		float: left;
+
+		@media screen and (max-width: 767px){
+			float: none;
+		}
+	}
+
+	.services-details{
+		text-align: center;
+		max-width: 1140px;
+		margin: 0 auto;
+
+		h3{
+			margin: 41px 0;
+		}
+		i{
+			font-size: 6em;
+			margin-bottom: 20px;
+			border: 12px solid #fff;
+			min-width: 200px;
+			min-height: 200px;
+			border-radius: 50%;
+			padding: 60px;
+			position: relative;
+		}
+		
+
+		.marketing{
+			i{
+				background: #E65555;
+			}
+		}
+
+		.ecommerce{
+			i{
+				background: #45B156;
+			}
+		}
+
+		.custom{
+			i{
+				background: #6068C7;
+			}
+		}
+	}
+}
+

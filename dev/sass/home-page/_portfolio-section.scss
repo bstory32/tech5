@@ -1,18 +1,23 @@
 .portfolio-section{
-	padding: 15em 0;
+	padding: $desktop-margin;
 	text-align: center;
 	background: #fff;
 
+	@media screen and (max-width: 767px){
+		padding: $mobile-margin;
+	}
+
 	.projects{
-		padding: 25px 0;
-		h3{
-			font-size: 1.3em;
-		}
+		padding: 25px 0 45px 0;
+		
 		img{
 			
 			max-width: 100%;
-			width: 280px;
 			border: 1px solid #eee;
+
+			@media screen and (max-width: 767px){
+				margin-bottom: 2em;
+			}
 		}
 	}
 }

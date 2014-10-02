@@ -1,19 +1,23 @@
 // http://flatuicolors.com/
 
+
+$black: #000;
 $white: #FFF;
 $secondary: #0076A7;
-
+$action: #09B391;
 $primary: #ABABAC;
 
-
+//Section margin
+$desktop-margin: 15em 0;
+$mobile-margin: 9em 0;
 
 // buttons
 .btn-primary{
-	background-color: $primary;
+	background-color: $action;
 	padding: 15px 20px;
 	border: 0;
 	&:hover{
-		background-color: #0076A7;
+		background-color: #039678;
 	}
 
 
