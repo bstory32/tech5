@@ -11,8 +11,21 @@
 	}
 
 	i{
-		font-size: 20px;
-		padding: 0 5px;
+		font-size: 13em;
+		color: $action;
+		&:after{
+			content: 'top';
+			font-size: .1em;
+			color: #FFF;
+			position: relative;
+			top: -95px;
+			left: -63px
+		}
+
+		@media screen and (max-width: 767px){
+			display: none;
+			
+		}
 	}
 	
 
@@ -84,7 +97,7 @@
 	.pull-right{
 		position: fixed;
 		right: 22px;
-		bottom: 10px;
+		bottom: -10px;
 		z-index: 99999;
 		color: blue;
 

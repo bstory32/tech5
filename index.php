@@ -1,89 +1,41 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="icon" href="../../favicon.ico">
-
-  <title>Tech 5 Designs</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href='http://fonts.googleapis.com/css?family=Rufina:400,700' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href="public/css/bootstrap.min.css" rel="stylesheet">
-  <link href="public/css/main.css" rel="stylesheet">
+<?php include ('layout/header.php') ?>
 
 
-  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
-    </head>
 
-    <body>
-      <nav role="navigation">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#"><img src="public/images/tech5_light.png" alt=""></a>
-        <div class="collapse navbar-collapse">
-          <ul class="main-nav">
-            <li><a href="#portfolio-section">Portfolio</a></li>
-            <li><a href="#services-section">Web Design</a></li>
-            <li>
-              <a href="#main-message-section"><img src="public/images/tech5-logo-5.png"></a>
-            </li>
-            <li><a href="#team-section">Leadership</a></li>
-            <li><a href="#contact-section">Contact</a></li>
-          </ul>
+<div class="main-message" id="main-message-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12"> 
+        <div class="message-details">
+          <img src="public/images/tech5_designs_dark.png" alt="">
+          <span>Established in Chicago</span>
+          <h1>We build websites<br>worth sharing</h1>
+          <hr>
+          <a href="#portfolio-section" class="btn btn-primary">View Our Latest Work</a>
         </div>
-      </nav>
+      </div>
+    </div>
+  </div>
+</div>  
 
-      <div class="main-message" id="main-message-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12"> 
-              <div class="message-details">
-                <img src="public/images/tech5_designs_dark.png" alt="">
-                <span>Established in Chicago</span>
-                <h1>We build websites<br>worth sharing</h1>
-                <hr>
-                <a href="#portfolio-section" class="btn btn-primary">View Our Latest Work</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>  
-
-      <div class="portfolio-section" id="portfolio-section">
-       <div class="container">
-         <div class="row">
-           <div class="col-sm-12">
-            <h2>We're more than developers <br> we're partners</h2>
-            <hr>
-          </div>
-        </div>
-        <div class="projects">
-          <div class="row">
-            <div class="col-sm-6">
-              <h3>Muddrunner</h3>
-              <a href="#"><img src="public/images/muddrunner-screen-shot.jpg"></a>
-            </div>
-            <div class="col-sm-6">
-              <h3>Commercial Connected</h3>
-              <a href="#"><img src="public/images/commercialconnected-screen-shot.jpg"></a>
-            </div>
+<div class="portfolio-section" id="portfolio-section">
+ <div class="container">
+   <div class="row">
+     <div class="col-sm-12">
+      <h2>We're more than developers <br> we're partners</h2>
+      <hr>
+    </div>
+  </div>
+  <div class="projects">
+    <div class="row">
+      <div class="col-sm-6">
+        <h3>Muddrunner</h3>
+        <a href="#"><img src="public/images/muddrunner-screen-shot.jpg"></a>
+      </div>
+      <div class="col-sm-6">
+        <h3>Commercial Connected</h3>
+        <a href="#"><img src="public/images/commercialconnected-screen-shot.jpg"></a>
+      </div>
             <!-- <div class="col-sm-3">
               <h3>Project</h3>
               <img src="http://placehold.it/200x150">
@@ -215,44 +167,10 @@
       </div>
     </div>
     
-    <footer>
-      <div class="created-by">
-        <div class="container">
-          <div class="row footer-content">
-            <div class="col-sm-3 footer-logo">
-              <a href="#main-message-section"><img src="public/images/tech5_light.png" alt=""></a>
-            </div>
-            <div class="col-sm-7 nav-links">
-              <ul>
-                <li>
-                  <a href="#portfolio-section">Portfolio</a>
-                </li>
-                <li>
-                  <a href="#services-section">Web Design</a>
-                </li>
-                <li>
-                  <a href="#team-section">Leadership</a>
-                </li>
-                <li>
-                  <a href="#contact-section">Contact</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-sm-2 social-links">
-              <!-- <ul class="">
-                <li>
-                  <a href="#"><i class="fa fa-facebook-square"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-twitter-square"></i></a>
-                </li>
-              </ul> -->
-            </div>
-          </div>
-        </div>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-      </div>
-    </footer>
+
+    <?php include ('layout/footer.php') ?>
+    
+
 
 
 
@@ -265,6 +183,6 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     
-    <script src="public/js/scripts.js"></script>
+    
   </body>
   </html>
