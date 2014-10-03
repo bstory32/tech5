@@ -30,11 +30,11 @@
     <div class="row">
       <div class="col-sm-6">
         <h3>Muddrunner</h3>
-        <a href="#"><img src="public/images/muddrunner-screen-shot.jpg"></a>
+        <a  href="http://muddrunner.com/" target="_blank"><img src="public/images/muddrunner-screen-shot.jpg"></a>
       </div>
       <div class="col-sm-6">
         <h3>Commercial Connected</h3>
-        <a href="#"><img src="public/images/commercialconnected-screen-shot.jpg"></a>
+        <a  href="http://www.commercialconnected.com/" target="_blank"><img src="public/images/commercialconnected-screen-shot.jpg"></a>
       </div>
             <!-- <div class="col-sm-3">
               <h3>Project</h3>
